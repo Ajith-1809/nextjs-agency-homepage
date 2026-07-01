@@ -27,3 +27,29 @@ html, body {
   transition: background-color 0.3s ease, color 0.3s ease;
   scroll-behavior: smooth;
 }
+
+@keyframes float-top {
+  0%, 100% {
+    transform: rotateX(55deg) rotateZ(-40deg) translateZ(40px);
+  }
+  50% {
+    transform: rotateX(55deg) rotateZ(-40deg) translateZ(70px) translateY(-8px);
+  }
+}
+
+@keyframes float-bottom {
+  0%, 100% {
+    transform: rotateX(55deg) rotateZ(-40deg) translateZ(-40px);
+  }
+  50% {
+    transform: rotateX(55deg) rotateZ(-40deg) translateZ(-70px) translateY(8px);
+  }
+}
+
+.animate-float-top {
+  animation: float-top 6s ease-in-out infinite;
+}
+
+.animate-float-bottom {
+  animation: float-bottom 6s ease-in-out infinite;
+}

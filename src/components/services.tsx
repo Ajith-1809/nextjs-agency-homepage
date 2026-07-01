@@ -35,7 +35,7 @@ export default function Services() {
           {SERVICES.map((service) => (
             <div
               key={service.id}
-              className="group relative rounded-3xl border border-foreground/10 bg-foreground/[0.01] p-8 shadow-sm transition-all duration-300 hover:-translate-y-1.5 hover:border-indigo-500/30 hover:bg-foreground/[0.02] hover:shadow-lg hover:shadow-indigo-500/5"
+              className="group relative rounded-3xl border border-foreground/10 bg-foreground/[0.01] p-8 shadow-sm transition-all duration-300 hover:-translate-y-1.5 hover:border-indigo-500/30 hover:bg-foreground/[0.02] hover:shadow-lg hover:shadow-indigo-500/5 active:scale-[0.98] active:border-indigo-500/20"
             >
               {/* Icon Container with subtle glow */}
               <div className="inline-flex rounded-2xl bg-indigo-500/10 p-3.5 text-indigo-500 group-hover:bg-indigo-600 group-hover:text-white transition-all duration-300">

@@ -55,7 +55,7 @@ export default function Portfolio() {
           {filteredProjects.map((project) => (
             <div
               key={project.id}
-              className="group relative overflow-hidden rounded-2xl border border-foreground/10 bg-background transition-all duration-300 hover:shadow-xl hover:shadow-indigo-500/5 hover:-translate-y-1"
+              className="group relative overflow-hidden rounded-2xl border border-foreground/10 bg-background transition-all duration-300 hover:shadow-xl hover:shadow-indigo-500/5 hover:-translate-y-1 active:scale-[0.99] active:border-indigo-500/20"
             >
               {/* Image Thumbnail */}
               <div className="relative aspect-[4/3] w-full overflow-hidden bg-muted">

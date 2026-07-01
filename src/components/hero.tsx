@@ -65,9 +65,8 @@ export default function Hero() {
           >
             {/* 3D Panel 1: Digital Aesthetics (TOP LAYER) */}
             <div 
-              className="absolute w-[290px] h-[190px] rounded-2xl border border-indigo-500/30 bg-background/50 p-5 shadow-2xl backdrop-blur-xl transition-all duration-500 group-hover:-translate-y-12 cursor-pointer flex flex-col justify-between"
+              className="absolute w-[290px] h-[190px] rounded-2xl border border-indigo-500/30 bg-background/50 p-5 shadow-2xl backdrop-blur-xl cursor-pointer flex flex-col justify-between animate-float-top"
               style={{
-                transform: "rotateX(55deg) rotateZ(-40deg) translateZ(40px)",
                 transformStyle: "preserve-3d",
                 boxShadow: "0 25px 50px -12px rgba(99, 102, 241, 0.25)"
               }}
@@ -92,9 +91,8 @@ export default function Hero() {
 
             {/* 3D Panel 2: System Integrity (BOTTOM LAYER) */}
             <div 
-              className="absolute w-[290px] h-[190px] rounded-2xl border border-emerald-500/30 bg-background/60 p-5 shadow-2xl backdrop-blur-xl transition-all duration-500 group-hover:translate-y-12 cursor-pointer flex flex-col justify-between"
+              className="absolute w-[290px] h-[190px] rounded-2xl border border-emerald-500/30 bg-background/60 p-5 shadow-2xl backdrop-blur-xl cursor-pointer flex flex-col justify-between animate-float-bottom"
               style={{
-                transform: "rotateX(55deg) rotateZ(-40deg) translateZ(-40px)",
                 transformStyle: "preserve-3d",
                 boxShadow: "0 25px 50px -12px rgba(16, 185, 129, 0.2)"
               }}
