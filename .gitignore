@@ -66,3 +66,5 @@ Thumbs.db
 # TypeScript compilation info
 *.tsbuildinfo
 next-env.d.ts
+
+.vercel

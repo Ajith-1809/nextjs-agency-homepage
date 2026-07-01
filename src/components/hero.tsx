@@ -53,11 +53,11 @@ export default function Hero() {
         </div>
 
         {/* Right Column: Native 3D Isometric Prototype Model */}
-        <div className="lg:col-span-5 relative w-full h-[480px] hidden md:flex items-center justify-center select-none">
+        <div className="lg:col-span-5 relative w-full h-[340px] sm:h-[480px] flex items-center justify-center select-none mt-8 lg:mt-0">
           
           {/* Main 3D Perspective Wrap */}
           <div 
-            className="relative group w-[340px] h-[340px] flex items-center justify-center"
+            className="relative group w-[340px] h-[340px] flex items-center justify-center scale-[0.8] sm:scale-100"
             style={{ 
               perspective: "1200px",
               transformStyle: "preserve-3d" 
