@@ -95,7 +95,7 @@ Ensure you have Node.js (version 18+) and npm installed.
 
 ### 2. Clone the Repository
 ```bash
-git clone <repository_url>
+git clone https://github.com/Ajith-1809/nextjs-agency-homepage.git
 cd nextjs
 ```
 
