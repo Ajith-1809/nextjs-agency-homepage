@@ -1,0 +1,68 @@
+# Dependency directories
+/node_modules
+/.pnp
+.pnp.*
+/yarn.lock
+/package-lock.json
+
+# Next.js build and export outputs
+/.next/
+/out/
+/build
+/dist
+
+# Environment variables & secrets (sensitive files)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local*
+*.env
+*.env.local
+
+# Private keys, certificates, & credentials
+*.pem
+*.key
+*.pub
+*.pfx
+*.cert
+*.p12
+*.keypair
+id_rsa
+id_dsa
+id_ecdsa
+id_ed25519
+
+# Log files & diagnostics
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+pnpm-debug.log*
+cli.log
+history.jsonl
+
+# Operating System caches
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs & Editor configurations
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# TypeScript compilation info
+*.tsbuildinfo
+next-env.d.ts
