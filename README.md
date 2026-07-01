@@ -7,7 +7,7 @@ This application demonstrates solid frontend fundamentals, robust modular compon
 ---
 
 ## 🚀 Live Links & Submissions
-*   **GitHub Repository**: `[Insert GitHub Repo Link Here]`
+*   **GitHub Repository**: [Ajith-1809/nextjs-agency-homepage](https://github.com/Ajith-1809/nextjs-agency-homepage)
 *   **Vercel Live Demo**: `[Insert Vercel Deployment Link Here]`
 
 ---
